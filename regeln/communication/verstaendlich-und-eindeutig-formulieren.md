@@ -13,3 +13,4 @@ Darüber hinaus gilt für jede Formulierung:
 4. Bildliche Wendungen werden aufgelöst oder weggelassen; ein Bild ersetzt keine Erklärung.
 5. Laufen mehrere Vorgänge gleichzeitig, wird jeder einzeln benannt und sein Zustand einzeln genannt. Eine Sammelaussage über „die Vorgänge" tritt nicht an ihre Stelle.
 6. Wird viel gleichzeitig bearbeitet, ordnet die Antwort zuerst zu, worum es geht, bevor sie berichtet, was geschah.
+7. Eine Ursache wird nie als Sammelaussage benannt („manchmal geht es nicht", „aus verschiedenen Gründen"). Genannt wird die vollständige Liste der konkreten Fälle, jeder mit der Stelle, an der er entschieden wird, und der Unterscheidung, ob er einen Versuch verhindert oder einen Versuch scheitern lässt. Ist die Liste unvollständig, wird das gesagt.
