@@ -2,8 +2,8 @@
 id: ax_afvzc6qlghupmjwc
 titel: Kein stummes Ausbleiben
 ---
-Jeder Schritt einer Auslieferungskette wird entweder ausgeführt oder scheitert sichtbar. Ein Schritt, der ohne Ausführung vergeht, ist ausschließlich dann zulässig, wenn seine Nichtausführung aus einer benannten und überprüfbaren Eigenschaft des Gegenstands folgt; er wird in diesem Fall als nicht ausgeführt gekennzeichnet, niemals als erfolgreich. Die Eigenschaft wird belegt und nicht vermutet.
+Jeder Schritt einer Auslieferungskette trägt zu jedem Zeitpunkt genau einen belegten Zustand: ausgeführt, gescheitert, oder nicht anwendbar. Der Zustand „nicht anwendbar" liegt ausschließlich dann vor, wenn er aus einer nachgewiesenen Eigenschaft des Gegenstands folgt; das Fehlen einer Einrichtung ist keine solche Eigenschaft, sondern ein Mangel.
 
-Führt eine umgesetzte Änderung zu keiner Auslieferung, so gilt der Vorgang als fehlgeschlagen und wird gemeldet. Das Ausbleiben einer Wirkung ist ein Befund, kein Normalzustand.
+Der Zustand „ausgeführt" trifft ausschließlich auf einen tatsächlich ausgeführten Schritt zu. Eine umgesetzte Änderung ohne zugehörige Auslieferung ist ein Fehlschlag und als solcher ausgewiesen.
 
-Eine Einstellung, die einen Schritt dauerhaft abschaltet, ist unzulässig. Wo ein Schritt nicht gelten soll, entfällt er aus der Kette, statt in ihr abgeschaltet zu verharren.
+Eine Auslieferungskette enthält keinen Schritt, der durch eine Einstellung dauerhaft abgeschaltet ist. Was nicht gilt, ist nicht Teil der Kette.
