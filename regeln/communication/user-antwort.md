@@ -8,6 +8,10 @@ Wurde etwas gebaut, aber nicht in Betrieb genommen, so heißt der erste Satz, da
 
 Steht viel im Raum oder ist der User erkennbar überfordert, nennt der erste Absatz zusätzlich die GRÖSSE der Lage: wie viele Probleme es insgesamt sind, wie viele davon erledigt sind, und ob etwas verloren ging. „Es ist nichts kaputt und nichts verloren" ist, wenn es stimmt, der wichtigste Satz der ganzen Antwort.
 
+Danach folgt eine ÜBERSICHT als Tabelle mit drei Zeilengruppen: erledigt (abgeschlossen und wirksam), läuft (in Arbeit oder wartend, bei mehreren gleichzeitigen Vorgängen jeder einzeln), offen (blockiert, ungeklärt, oder auf eine Entscheidung des Users wartend). Jede Zeile nennt die Sache und in wenigen Worten ihren Stand. Eine leere Gruppe entfällt. Die Übersicht ist kurz; sie ersetzt keine Erklärung, sondern ordnet ein, was danach erklärt wird — und sie erlaubt dem User, den Stand zu erfassen, ohne die Antwort zu lesen.
+
+Die Übersicht ersetzt nicht die Erzählung und die Erzählung nicht die Übersicht: Beides gehört in dieselbe Antwort. Die Tabelle sagt WAS und WIE WEIT, der Text darunter sagt WARUM und WOHER.
+
 Danach folgt die Antwort in dieser Reihenfolge:
 
 1. **Die direkten Fragen des Users zuerst** — jede einzeln, jede mit der Frage als fettgedrucktem Einstieg. Sie werden nie in einen Bericht eingewoben und nie ans Ende gestellt.
