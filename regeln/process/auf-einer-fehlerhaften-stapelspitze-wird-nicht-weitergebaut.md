@@ -1,0 +1,5 @@
+---
+id: ax_k55pz4r2fec3psup
+titel: Auf einer fehlerhaften Stapelspitze wird nicht weitergebaut
+---
+Ein neuer Auftrag zweigt von der Stapelspitze ab. Ist diese Spitze fehlerhaft, erbt er den Fehler und seine eigene Arbeit wird unauslieferbar — ohne dass er etwas falsch gemacht hat. Deshalb gilt: Bevor auf einer Spitze weitergebaut wird, muss dort etwas Funktionierendes stehen. Ist sie fehlerhaft, gibt es genau zwei Wege — den Fehler an der Spitze beheben, oder die Spitze entfernen, sodass die nächste funktionierende Lage zur Spitze wird. Weiterbauen auf einem bekannten Defekt ist keiner davon. Daraus folgt eine zweite Pflicht: Der Zustand der Spitze muss überhaupt feststellbar sein. Ein Zweig, dessen Auslieferung scheiterte, ist nicht dasselbe wie ein Zweig, der ausgeliefert wurde; wer beides gleich behandelt, baut auf Ungeprüftem. Und eine gescheiterte Auslieferung darf die Arbeit nicht für alles Folgende unsichtbar machen — sonst zweigen die nächsten Aufträge stillschweigend von einem älteren Stand ab und die Lücke wächst mit jedem weiteren Auftrag.
