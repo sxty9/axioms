@@ -44,10 +44,15 @@ DIE KETTE FUEHRT ZUSAMMEN, NICHT DIE HAND
 
 Das Zusammenfuehren ist eine Stufe der Kette und gehoert ihr allein. Lieferungen stapeln sich: Der
 Pull Request einer Lieferung steht auf dem Zweig ihres Vorgaengers, nicht auf dem Standard-Zweig.
-Deshalb wird EINER je Durchgang zusammengefuehrt und sein Zweig danach geloescht — erst das Loeschen
-setzt den nachfolgenden Pull Request auf den Standard-Zweig um. Mehrere auf einmal von Hand
-zusammenzufuehren laesst jeden ausser dem ersten in den veralteten Zweig seines Vorgaengers fallen:
-Der Pull Request meldet sich als zusammengefuehrt, sein Inhalt erreicht den Standard-Zweig nie.
+Deshalb gilt UMHAENGEN VOR LOESCHEN: Bevor der Zweig einer zusammengefuehrten Lieferung entfernt wird,
+wird jeder offene Pull Request, der auf ihm als Basis steht, auf den Standard-Zweig umgehaengt. Erst
+danach darf geloescht werden. Auf ein automatisches Umhaengen durch die Vergabestelle ist kein Verlass
+— wird der Basiszweig entfernt, waehrend ein Pull Request darauf steht, wird dieser GESCHLOSSEN, und
+eine fertige, gruene Lieferung geht verloren.
+
+Mehrere auf einmal zusammenzufuehren laesst zudem jeden ausser dem ersten in den veralteten Zweig
+seines Vorgaengers fallen: Der Pull Request meldet sich als zusammengefuehrt, sein Inhalt erreicht den
+Standard-Zweig nie.
 
 Daraus folgt dreierlei. Ein Pull Request, der in einen anderen als den Standard-Zweig zusammengefuehrt
 wurde, gilt NICHT als geliefert; das Lieferungsbuch darf das nicht behaupten. Vor jedem Eingriff an
@@ -61,3 +66,8 @@ Eine Schleife ueber mehrere Gegenstaende setzt voraus, dass sie voneinander unab
 Annahme ist zu pruefen, bevor die Schleife geschrieben wird, nicht danach. Wer eine Eigenschaft
 abfragt, fragt die ab, von der die Handlung abhaengt — Vollstaendigkeit der Messung entscheidet, nicht
 ihre Menge.
+
+Ein Pull Request, der ohne Zusammenfuehrung geschlossen wurde, ist nur dann eine Zurueckweisung, wenn
+ein Mensch ihn geschlossen hat. Faellt er zu, weil sein Basiszweig entfernt wurde, ist das ein Schaden
+und keine Entscheidung: Der Zweig wird wiederhergestellt, der Pull Request reaktiviert, auf den
+Standard-Zweig gehaengt und zusammengefuehrt.
