@@ -39,3 +39,25 @@ Hindernis gehoert genehmigungsfaehig gemacht, nicht umgangen.
 Root-Rechte sind der Musterfall. Die Kette schreibt niemals selbst ein Skript, das als root laeuft —
 das waere Selbst-Erhoehung. Sie legt den genauen Inhalt vor, an seine Pruefsumme gebunden, und der
 Mensch genehmigt ihn.
+
+DIE KETTE FUEHRT ZUSAMMEN, NICHT DIE HAND
+
+Das Zusammenfuehren ist eine Stufe der Kette und gehoert ihr allein. Lieferungen stapeln sich: Der
+Pull Request einer Lieferung steht auf dem Zweig ihres Vorgaengers, nicht auf dem Standard-Zweig.
+Deshalb wird EINER je Durchgang zusammengefuehrt und sein Zweig danach geloescht — erst das Loeschen
+setzt den nachfolgenden Pull Request auf den Standard-Zweig um. Mehrere auf einmal von Hand
+zusammenzufuehren laesst jeden ausser dem ersten in den veralteten Zweig seines Vorgaengers fallen:
+Der Pull Request meldet sich als zusammengefuehrt, sein Inhalt erreicht den Standard-Zweig nie.
+
+Daraus folgt dreierlei. Ein Pull Request, der in einen anderen als den Standard-Zweig zusammengefuehrt
+wurde, gilt NICHT als geliefert; das Lieferungsbuch darf das nicht behaupten. Vor jedem Eingriff an
+einem Pull Request ist seine Basis zu lesen, nicht anzunehmen. Und die Kette weist Inhalt zurueck, der
+nicht aus einer eingetragenen Lieferung stammt — dieses Urteil wird nie von Hand ueberschrieben,
+sondern durch einen Auftrag beantwortet, der den Inhalt ordentlich ausliefert.
+
+GEMESSEN WIRD VOR DEM AUTOMATISIEREN
+
+Eine Schleife ueber mehrere Gegenstaende setzt voraus, dass sie voneinander unabhaengig sind. Diese
+Annahme ist zu pruefen, bevor die Schleife geschrieben wird, nicht danach. Wer eine Eigenschaft
+abfragt, fragt die ab, von der die Handlung abhaengt — Vollstaendigkeit der Messung entscheidet, nicht
+ihre Menge.
