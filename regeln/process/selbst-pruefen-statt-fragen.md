@@ -13,3 +13,9 @@ Eine bereits beantwortete Frage wird in derselben Sache nicht erneut gestellt. B
 Endet der Vorgang, zu dem eine Frage gehört, kann ihre Beantwortung keine Wirkung mehr entfalten. Sie bleibt nicht offen, sondern wird geschlossen und als unwirksam gekennzeichnet.
 
 Die Anzahl der in derselben Sache gestellten Fragen ist Teil des Zustands. Ab der zweiten gleichlautenden Frage gilt die Vermutung der Wirkungslosigkeit.
+
+Jede Frage ist ablehnbar. Die Ablehnung ist eine gleichrangige, jederzeit verfügbare Antwort, nicht das Ausbleiben einer Antwort. Eine Frage, die nur bejaht werden kann, ist keine Frage, sondern eine Aufforderung; sie darf nicht als Entscheidung dargestellt werden. Die Ablehnbarkeit gilt insbesondere dort, wo die Zustimmung eine Schranke aufhebt: Je schwerer die Zustimmung wiegt, desto zwingender ist die Möglichkeit, sie zu verweigern.
+
+Eine abgelehnte Frage beendet den zugehörigen Vorgang. Der Vorgang gilt als gescheitert, benennt die Ablehnung als seinen Grund, gibt seinen Ausführungsplatz frei und hinterlässt keine Sperre. Ein Vorgang, der nach einer Ablehnung weiterläuft, wartet oder erneut fragt, entwertet die Ablehnung.
+
+Die Ablehnung ist der sichere Ausgang. Sie führt niemals dazu, dass etwas installiert, verändert oder übertragen wird; sie stellt den Zustand vor der Frage wieder her.
