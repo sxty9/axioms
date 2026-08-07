@@ -19,3 +19,5 @@ Jede Frage ist ablehnbar. Die Ablehnung ist eine gleichrangige, jederzeit verfü
 Eine abgelehnte Frage beendet den zugehörigen Vorgang. Der Vorgang gilt als gescheitert, benennt die Ablehnung als seinen Grund, gibt seinen Ausführungsplatz frei und hinterlässt keine Sperre. Ein Vorgang, der nach einer Ablehnung weiterläuft, wartet oder erneut fragt, entwertet die Ablehnung.
 
 Die Ablehnung ist der sichere Ausgang. Sie führt niemals dazu, dass etwas installiert, verändert oder übertragen wird; sie stellt den Zustand vor der Frage wieder her.
+
+Die Ablehnung ist zugleich das Mittel, mit dem eine blockierte Stapelspitze wieder freigegeben wird. Ein Vorgang, der an einer unbeantworteten Frage haengt, haelt die Spitze und damit alles, was auf ihr aufbaut; die Ablehnung loest ihn auf und gibt die Spitze frei. Sie ist damit nicht nur eine zulaessige Antwort, sondern der vorgesehene Ausweg aus einem Stillstand.
